@@ -70,4 +70,7 @@ The site will be live at `https://<user>.github.io/<repo>/` within a few minutes
 
 - The Bar Council of India rules restrict advertising and solicitation by advocates. The site includes a disclaimer popup and footer text for this. Have the client (or their Bar Council guidance) confirm the wording and that the content complies before going live.
 - Avoid client testimonials, case-win claims and fee promises.
-- The fonts load from Google Fonts. For stricter privacy, download the fonts and host them in `assets/`.
+- Fonts (Libre Caslon and Public Sans) load from Google Fonts. For stricter privacy, download them and host them in `assets/fonts/`.
+- The first visit shows a Bar Council notice; the hero animation (rosette and seal) plays after the visitor clicks "I Agree".
+- Photos: put images in `assets/` and add `<img src="assets/name.jpg" alt="...">` inside the `.arch` block of that person.
+- Animations switch off automatically for visitors who set "reduce motion" on their device.

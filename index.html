@@ -3,237 +3,375 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Kylas Associates | Advocates &amp; Legal Consultants</title>
-  <meta name="description" content="[Firm Name] is an Indian law firm offering litigation and legal advisory services before the High Court, Supreme Court of India and Tribunals.">
+  <title>Kylas Associates | Advocates &amp; Legal Consultants</title>
+  <meta name="description" content="Kylas Associates is an Indian law firm offering litigation and legal advisory services in administrative, constitutional, civil, criminal and family law before the High Court, Supreme Court of India and Tribunals.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#e1e9de">
+  <link rel="canonical" href="https://pauloseraj.github.io/kylas-associates/">
+
+  <!-- Open Graph / WhatsApp / LinkedIn / Facebook previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kylas Associates">
+  <meta property="og:locale" content="en_IN">
   <meta property="og:title" content="Kylas Associates | Advocates &amp; Legal Consultants">
   <meta property="og:description" content="Litigation and legal advisory services before the High Court, Supreme Court of India and Tribunals.">
-  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pauloseraj.github.io/kylas-associates/">
+  <meta property="og:image" content="https://pauloseraj.github.io/kylas-associates/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Kylas Associates, Advocates and Legal Consultants">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kylas Associates | Advocates &amp; Legal Consultants">
+  <meta name="twitter:description" content="Litigation and legal advisory services before the High Court, Supreme Court of India and Tribunals.">
+  <meta name="twitter:image" content="https://pauloseraj.github.io/kylas-associates/assets/og-image.png">
+
+  <!-- Google Search Console verification: paste the tag Google gives you here -->
+  <!-- <meta name="google-site-verification" content="XXXXXXXX"> -->
+
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured data (JSON-LD). Add "telephone" and "address" once the real details are final. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Kylas Associates",
+    "url": "https://pauloseraj.github.io/kylas-associates/",
+    "description": "Kylas Associates is an Indian law firm offering litigation and legal advisory services in administrative, constitutional, civil, criminal and family law before the High Court, Supreme Court of India and Tribunals.",
+    "areaServed": { "@type": "Country", "name": "India" },
+    "founder": { "@type": "Person", "name": "Dr. K P Kylasanatha Pillay" },
+    "knowsAbout": [
+      "Administrative and service law",
+      "Constitutional law and writs",
+      "Civil litigation",
+      "Criminal law",
+      "Family law",
+      "Environment and education law",
+      "Arbitration"
+    ]
+  }
+  </script>
 </head>
 <body>
 
-  <!-- Bar Council of India disclaimer (shown once per visitor) -->
+  <!-- Shared icon: scales of justice -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="scales" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 8v28M12 16h24M17 40h14M24 8l0 0"/>
+        <path d="M12 16l-6.5 13h13L12 16zM36 16l-6.5 13h13L36 16z"/>
+        <path d="M5.5 29a6.5 4 0 0 0 13 0M29.5 29a6.5 4 0 0 0 13 0"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <!-- Bar Council of India notice (shown once per visit) -->
   <div id="disclaimer" class="modal" role="dialog" aria-modal="true" aria-labelledby="disc-title" hidden>
     <div class="modal-box">
-      <h2 id="disc-title">Disclaimer</h2>
-      <p>As per the rules of the Bar Council of India, advocates are not permitted to solicit work or advertise. By clicking “I Agree”, you acknowledge that:</p>
+      <svg class="modal-mark" aria-hidden="true"><use href="#scales"/></svg>
+      <h2 id="disc-title">Before you continue</h2>
+      <p>As per the rules of the Bar Council of India, advocates are not permitted to solicit work or advertise. By clicking “I Agree”, you confirm that:</p>
       <ul>
-        <li>You are seeking information about Kylas Associates of your own accord and there has been no advertisement, solicitation, invitation or inducement of any kind by the firm or its members.</li>
-        <li>The information on this website is for informational purposes only and must not be interpreted as legal advice or as creating a lawyer-client relationship.</li>
-        <li>The firm is not liable for any action taken on the basis of the content of this website.</li>
+        <li>You are seeking information about Kylas Associates of your own accord. The firm and its members have not advertised, solicited, invited or induced you in any way.</li>
+        <li>The content of this website is for information only. It is not legal advice and does not create a lawyer-client relationship.</li>
+        <li>The firm is not liable for any action taken on the basis of this website.</li>
       </ul>
-      <button id="disc-agree" class="btn btn-gold">I Agree</button>
+      <button id="disc-agree" class="btn btn-solid" type="button">I Agree</button>
     </div>
   </div>
 
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="#top" class="brand">
-        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
-          <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="2"/>
-          <path d="M24 9v26M13 17h22M13 17l-5 10h10l-5-10zM35 17l-5 10h10l-5-10zM17 38h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span class="brand-text">Kylas Associates<small>Advocates &amp; Legal Consultants</small></span>
+      <a href="#home" class="brand" aria-label="Kylas Associates, home">
+        <svg class="brand-mark" aria-hidden="true"><use href="#scales"/></svg>
+        <span class="brand-text">Kylas Associates</span>
       </a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
-        <span></span><span></span><span></span>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
       </button>
-      <nav id="nav" class="nav">
-        <a href="#home">Home</a>
-        <a href="#practice">Areas of Practice</a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#practice">Areas of practice</a>
         <a href="#team">Team</a>
         <a href="#faq">FAQ</a>
-        <a href="#contact" class="nav-cta">Contact</a>
+        <a href="#contact" class="btn btn-solid btn-small">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main">
+
     <!-- HERO -->
     <section class="hero" id="home">
-      <div class="hero-pillars" aria-hidden="true">
-        <span></span><span></span><span></span><span></span><span></span><span></span>
+      <div class="rosette-box" aria-hidden="true">
+        <svg class="rosette" id="rosette" viewBox="-300 -300 600 600"></svg>
+        <div class="seal-wrap">
+          <svg class="seal" viewBox="0 0 200 200">
+            <defs>
+              <filter id="ink" x="-5%" y="-5%" width="110%" height="110%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="4" result="n"/>
+                <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/>
+              </filter>
+              <path id="seal-ring" d="M100,100 m-69,0 a69,69 0 1,1 138,0 a69,69 0 1,1 -138,0"/>
+            </defs>
+            <g filter="url(#ink)" fill="none" stroke="currentColor">
+              <circle cx="100" cy="100" r="95" stroke-width="4.5"/>
+              <circle cx="100" cy="100" r="88" stroke-width="1.2"/>
+              <circle cx="100" cy="100" r="52" stroke-width="1.2"/>
+              <text fill="currentColor" stroke="none" font-size="13.5" letter-spacing="2.2">
+                <textPath href="#seal-ring" startOffset="0" textLength="428" lengthAdjust="spacing">KYLAS ASSOCIATES  •  ADVOCATES &amp; LEGAL CONSULTANTS  •</textPath>
+              </text>
+              <use href="#scales" x="68" y="66" width="64" height="64" stroke-width="2.4"/>
+            </g>
+          </svg>
+        </div>
       </div>
-      <div class="container hero-inner">
-        <p class="eyebrow">Your way to justice</p>
-        <h1>Kylas Associates</h1>
-        <p class="lead">An Indian law firm offering litigation and legal advisory services, founded by 
-                        Dr.K P Kylasanatha Pillay,MA(English) MA(History),  LL.M, Ph.D
-                      </p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-gold">Get in Touch</a>
-          <a href="#practice" class="btn btn-outline">Areas of Practice</a>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 aria-label="Kylas Associates">
+            <span class="line"><span style="--d:.15s">Kylas</span></span>
+            <span class="line"><span style="--d:.3s">Associates</span></span>
+          </h1>
+          <p class="hero-sub fx" style="--d:.7s">Advocates and legal consultants appearing before the High Court, the Supreme Court of India and Tribunals.</p>
+
+          <dl class="order">
+            <div class="fx" style="--d:.9s"><dt>Appearing for</dt><dd>You</dd></div>
+            <div class="fx" style="--d:1.05s"><dt>Before</dt><dd>The High Court, the Supreme Court of India and Tribunals</dd></div>
+            <div class="fx" style="--d:1.2s"><dt>Founded by</dt><dd>Dr. K P Kylasanatha Pillay</dd></div>
+          </dl>
+
+          <div class="hero-actions fx" style="--d:1.4s">
+            <a href="#contact" class="btn btn-solid">Book a consultation</a>
+            <a href="#practice" class="btn btn-link">See areas of practice</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="section about">
+    <section class="band band-paper" id="about">
       <div class="container about-grid">
         <div class="about-text">
-          <p class="eyebrow dark">About the Firm</p>
           <h2>Experienced counsel before courts and tribunals</h2>
-          <p>Kylas Associates provides litigation services in Administrative, Constitutional, Civil, Criminal and Family Law before the High Court, the Supreme Court of India, Tribunals and various other courts and forums.</p>
+          <p class="serif-lead">Kylas Associates provides litigation services in Administrative, Constitutional, Civil, Criminal and Family Law before the High Court, the Supreme Court of India, Tribunals and various other courts and forums.</p>
           <p>The firm also offers legal consultation, due diligence, drafting and review of contracts, legal notices, statutory appeals, revisions, representations and title verification.</p>
-          <a href="#practice" class="link-arrow">Read about our areas of practice →</a>
         </div>
-        <div class="about-card">
-          <div class="stat"><strong>[10+]</strong><span>Years of practice</span></div>
-          <div class="stat"><strong>[500+]</strong><span>Matters handled</span></div>
-          <div class="stat"><strong>[5+]</strong><span>Courts &amp; tribunals</span></div>
-        </div>
+        <aside class="forums" aria-label="Forums where the firm appears">
+          <h3 class="forums-title">Where we appear</h3>
+          <ul>
+            <li>Supreme Court of India</li>
+            <li>High Court</li>
+            <li>Tribunals</li>
+            <li>Other courts and forums</li>
+          </ul>
+        </aside>
       </div>
     </section>
 
     <!-- PRACTICE AREAS -->
-    <section class="section practice" id="practice">
-      <div class="container">
-        <p class="eyebrow dark center">What We Do</p>
-        <h2 class="center">Areas of Practice</h2>
-        <div class="cards">
-          <article class="card">
-            <div class="icon">⚖</div>
-            <h3>Administrative &amp; Service Law</h3>
-            <p>Disciplinary proceedings, suspension, transfers, promotions, seniority, pay and pension matters before tribunals and High Courts.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🏛</div>
-            <h3>Constitutional Law &amp; Writs</h3>
-            <p>Writ petitions and public law remedies before the High Court and the Supreme Court of India.</p>
-          </article>
-          <article class="card">
-            <div class="icon">📜</div>
-            <h3>Civil Litigation</h3>
-            <p>Suits, injunctions, property and title disputes, recovery, appeals and revisions.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🛡</div>
-            <h3>Criminal Law</h3>
-            <p>Bail, quashing of proceedings, trial defence, appeals and revisions.</p>
-          </article>
-          <article class="card">
-            <div class="icon">👪</div>
-            <h3>Family Law</h3>
-            <p>Divorce, maintenance, custody, guardianship and related family disputes.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🌿</div>
-            <h3>Environment &amp; Education Law</h3>
-            <p>Environmental and land-use matters, admissions and academic or professional course disputes.</p>
-          </article>
-          <article class="card">
-            <div class="icon">📝</div>
-            <h3>Drafting &amp; Advisory</h3>
-            <p>Contracts, legal notices, representations, due diligence and title verification.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🤝</div>
-            <h3>Arbitration &amp; Corporate</h3>
-            <p>Arbitration support and corporate-sector legal communications.</p>
-          </article>
+    <section class="band band-sage" id="practice">
+      <div class="container practice-grid">
+        <div class="practice-intro">
+          <h2>Areas of practice</h2>
+          <p>Select an area to see the kind of matters we handle.</p>
         </div>
-        <p class="note center">Edit this list in <code>index.html</code> to match the firm’s actual practice.</p>
+
+        <ul class="docket">
+          <li class="docket-item is-open">
+            <h3><button class="docket-toggle" type="button" aria-expanded="true" aria-controls="dk1">Administrative and service law<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk1"><div><p>Disciplinary proceedings, suspension, transfers, promotions, seniority, pay and pension matters before tribunals and High Courts.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk2">Constitutional law and writs<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk2"><div><p>Writ petitions and public law remedies before the High Court and the Supreme Court of India.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk3">Civil litigation<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk3"><div><p>Suits, injunctions, property and title disputes, recovery, appeals and revisions.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk4">Criminal law<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk4"><div><p>Bail, quashing of proceedings, trial defence, appeals and revisions.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk5">Family law<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk5"><div><p>Divorce, maintenance, custody, guardianship and related family disputes.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk6">Environment and education law<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk6"><div><p>Environmental and land-use matters, admissions, and disputes over academic or professional courses.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk7">Drafting and advisory<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk7"><div><p>Contracts, legal notices, representations, due diligence and title verification.</p></div></div>
+          </li>
+          <li class="docket-item">
+            <h3><button class="docket-toggle" type="button" aria-expanded="false" aria-controls="dk8">Arbitration and corporate<i class="docket-icon" aria-hidden="true"></i></button></h3>
+            <div class="docket-panel" id="dk8"><div><p>Arbitration support and corporate-sector legal communications.</p></div></div>
+          </li>
+        </ul>
       </div>
     </section>
 
-<!-- TEAM -->
-<section class="section team" id="team">
-  <div class="container">
-    <p class="eyebrow dark center">Our People</p>
-    <h2 class="center">Meet the Team</h2>
-    <div class="team-grid">
-      <article class="member">
-        <div class="avatar" aria-hidden="true">SK</div>
-        <h3>Adv. Sreedevi Kylasnath</h3>
-        <p class="role">[Designation, e.g. Founder &amp; Principal Advocate]</p>
-        <p>[Short bio: enrolment year, Bar Council, courts and tribunals practised before, areas of focus.]</p>
-      </article>
-      <article class="member">
-        <div class="avatar" aria-hidden="true">AK</div>
-        <h3>Adv. Achuth Kylas</h3>
-        <p class="role">[Designation, e.g. Advocate]</p>
-        <p>[Short bio: enrolment year, Bar Council, courts and tribunals practised before, areas of focus.]</p>
-      </article>
-      <article class="member">
-        <div class="avatar" aria-hidden="true">S</div>
-        <h3>Adv. Sachin</h3>
-        <p class="role">[Designation, e.g. Advocate]</p>
-        <p>[Short bio: enrolment year, Bar Council, courts and tribunals practised before, areas of focus.]</p>
-      </article>
-      <article class="member">
-        <div class="avatar" aria-hidden="true">V</div>
-        <h3>Adv. Vargheese</h3>
-        <p class="role">[Designation, e.g. Advocate]</p>
-        <p>[Short bio: enrolment year, Bar Council, courts and tribunals practised before, areas of focus.]</p>
-      </article>
-    </div>
-  </div>
-</section>
+    <!-- PROCESS -->
+    <section class="band band-paper" id="process">
+      <div class="container process-grid">
+        <div class="process-intro">
+          <h2>How a matter proceeds</h2>
+          <p>What to expect from your first call to the final hearing.</p>
+        </div>
+
+        <ol class="steps" id="steps">
+          <li class="step">
+            <span class="step-n">1</span>
+            <div><h3>Consultation</h3><p>Tell us the facts. We listen, ask for the documents we need and explain your options.</p></div>
+          </li>
+          <li class="step">
+            <span class="step-n">2</span>
+            <div><h3>Review</h3><p>We study the papers, the applicable law, and the questions of forum and limitation.</p></div>
+          </li>
+          <li class="step">
+            <span class="step-n">3</span>
+            <div><h3>Strategy</h3><p>You get a clear plan: what to file, where to file it, and what to expect.</p></div>
+          </li>
+          <li class="step">
+            <span class="step-n">4</span>
+            <div><h3>Drafting and filing</h3><p>Petitions, pleadings, notices and representations are prepared with you and filed.</p></div>
+          </li>
+          <li class="step">
+            <span class="step-n">5</span>
+            <div><h3>Appearance and follow-up</h3><p>We appear before the court or tribunal and keep you informed at every stage.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FOUNDER -->
+    <section class="band band-ink" id="founder">
+      <div class="container founder-grid">
+        <div class="arch arch-large" role="img" aria-label="Portrait placeholder for Dr. K P Kylasanatha Pillay">
+          <span class="arch-initials">KP</span>
+          <!-- To use a photo: <img src="assets/founder.jpg" alt="Dr. K P Kylasanatha Pillay"> -->
+        </div>
+        <div class="founder-text">
+          <p class="founder-role">Founder</p>
+          <h2>Dr. K P Kylasanatha Pillay</h2>
+          <ul class="creds" aria-label="Qualifications">
+            <li>MA (English)</li>
+            <li>MA (History)</li>
+            <li>LL.M</li>
+            <li>Ph.D</li>
+          </ul>
+          <p>[Short profile: enrolment year, Bar Council, courts and tribunals practised before, and areas of focus.]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="band band-paper" id="team">
+      <div class="container">
+        <h2>Meet the team</h2>
+        <div class="team-grid">
+          <article class="member">
+            <div class="arch" role="img" aria-label="Portrait placeholder for Adv. Sreedevi Kylasnath"><span class="arch-initials">SK</span></div>
+            <h3>Adv. Sreedevi Kylasnath</h3>
+            <p class="role">[Designation]</p>
+            <p>[Short bio: enrolment year, courts practised before, areas of focus.]</p>
+          </article>
+          <article class="member">
+            <div class="arch" role="img" aria-label="Portrait placeholder for Adv. Achuth Kylas"><span class="arch-initials">AK</span></div>
+            <h3>Adv. Achuth Kylas</h3>
+            <p class="role">[Designation]</p>
+            <p>[Short bio: enrolment year, courts practised before, areas of focus.]</p>
+          </article>
+          <article class="member">
+            <div class="arch" role="img" aria-label="Portrait placeholder for Adv. Sachin"><span class="arch-initials">S</span></div>
+            <h3>Adv. Sachin</h3>
+            <p class="role">[Designation]</p>
+            <p>[Short bio: enrolment year, courts practised before, areas of focus.]</p>
+          </article>
+          <article class="member">
+            <div class="arch" role="img" aria-label="Portrait placeholder for Adv. Vargheese"><span class="arch-initials">V</span></div>
+            <h3>Adv. Vargheese</h3>
+            <p class="role">[Designation]</p>
+            <p>[Short bio: enrolment year, courts practised before, areas of focus.]</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
     <!-- FAQ -->
-    <section class="section faq" id="faq">
-      <div class="container narrow">
-        <p class="eyebrow dark center">Questions</p>
-        <h2 class="center">Frequently Asked Questions</h2>
-        <details>
-          <summary>What areas of law does the firm handle?</summary>
-          <p>The firm advises and represents clients in administrative and service law, constitutional, civil, criminal, family, environmental and education matters before courts and tribunals. See the Areas of Practice section for details.</p>
-        </details>
-        <details>
-          <summary>How can I arrange a consultation?</summary>
-          <p>You may contact the firm by telephone, email or through the enquiry form below. Please share only a brief description of the matter until the firm confirms how documents should be shared.</p>
-        </details>
-        <details>
-          <summary>Can consultations be conducted online?</summary>
-          <p>Online consultations may be available where an in-person meeting is unnecessary. The suitable mode depends on the documents and nature of the matter.</p>
-        </details>
-        <details>
-          <summary>Does contacting the firm create a lawyer-client relationship?</summary>
-          <p>No. Sending an enquiry or documents does not by itself create a lawyer-client relationship. It arises only after the firm accepts the engagement and the terms are confirmed.</p>
-        </details>
-        <details>
-          <summary>How are professional fees determined?</summary>
-          <p>Fees depend on the nature, complexity, urgency and expected scope of the work, and are discussed before an assignment is accepted.</p>
-        </details>
-        <details>
-          <summary>Can the firm guarantee the outcome of my case?</summary>
-          <p>No lawyer can guarantee the result of a legal proceeding. The outcome depends on the facts, evidence, applicable law and the decision of the competent court or tribunal.</p>
-        </details>
+    <section class="band band-sage" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-intro">
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>What areas of law does the firm handle?</summary>
+            <p>The firm advises and represents clients in administrative and service law, constitutional, civil, criminal, family, environmental and education matters before courts and tribunals. See Areas of practice for details.</p>
+          </details>
+          <details>
+            <summary>How can I arrange a consultation?</summary>
+            <p>You may contact the firm by telephone, email or through the enquiry form below. Please share only a brief description of the matter until the firm confirms how documents should be shared.</p>
+          </details>
+          <details>
+            <summary>Can consultations be conducted online?</summary>
+            <p>Online consultations may be available where an in-person meeting is unnecessary. The suitable mode depends on the documents and nature of the matter.</p>
+          </details>
+          <details>
+            <summary>Does contacting the firm create a lawyer-client relationship?</summary>
+            <p>No. Sending an enquiry or documents does not by itself create a lawyer-client relationship. It arises only after the firm accepts the engagement and the terms are confirmed.</p>
+          </details>
+          <details>
+            <summary>How are professional fees determined?</summary>
+            <p>Fees depend on the nature, complexity, urgency and expected scope of the work, and are discussed before an assignment is accepted.</p>
+          </details>
+          <details>
+            <summary>Can the firm guarantee the outcome of my case?</summary>
+            <p>No lawyer can guarantee the result of a legal proceeding. The outcome depends on the facts, evidence, applicable law and the decision of the competent court or tribunal.</p>
+          </details>
+        </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-    <section class="section contact" id="contact">
+    <section class="band band-ink" id="contact">
       <div class="container contact-grid">
         <div class="contact-info">
-          <p class="eyebrow">Get in Touch</p>
-          <h2>Contact Us</h2>
-          <ul class="info-list">
-            <li><strong>Address</strong><span>[Office address line 1],<br>[City, State – PIN]</span></li>
-            <li><strong>Phone</strong><a href="tel:+910000000000">+91 00000 00000</a></li>
-            <li><strong>Email</strong><a href="mailto:contact@example.com">contact@example.com</a></li>
-            <li><strong>Office hours</strong><span>Mon – Sat, 10:00 AM – 6:00 PM</span></li>
-          </ul>
-          <div class="social">
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="Twitter / X">X</a>
-            <a href="#" aria-label="Instagram">Instagram</a>
-          </div>
+          <h2>Tell us about your matter</h2>
+          <p class="contact-lead">Call, write, or use the form. A short description is enough to begin.</p>
+          <dl class="info-list">
+            <div><dt>Address</dt><dd>[Office address line 1],<br>[City, State – PIN]</dd></div>
+            <div><dt>Phone</dt><dd><a href="tel:+910000000000">+91 00000 00000</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:contact@example.com">contact@example.com</a></dd></div>
+            <div><dt>Office hours</dt><dd>Monday to Saturday, 10:00 AM to 6:00 PM</dd></div>
+          </dl>
+          <p class="social">
+            <a href="#">LinkedIn</a>
+            <a href="#">X</a>
+            <a href="#">Instagram</a>
+          </p>
         </div>
 
         <!-- Replace YOUR_FORM_ID with a Formspree (formspree.io) form ID, see README -->
         <form id="contact-form" class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <label>Name<input type="text" name="name" required></label>
-          <label>Email<input type="email" name="email" required></label>
-          <label>Phone<input type="tel" name="phone"></label>
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Email<input type="email" name="email" autocomplete="email" required></label>
+          <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
           <label>Subject<input type="text" name="subject" required></label>
           <label>Message<textarea name="message" rows="5" required></textarea></label>
           <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
-          <button type="submit" class="btn btn-gold">Submit</button>
+          <button type="submit" class="btn btn-solid">Send enquiry</button>
+          <p class="form-note">Please do not send confidential documents until we confirm how to share them.</p>
           <p id="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -241,9 +379,12 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year">2026</span> Kylas Associates. All rights reserved.</p>
-      <p class="small">This website is for information only and does not constitute legal advice, advertisement or solicitation.</p>
+    <div class="container">
+      <p class="footer-mark" aria-hidden="true">Kylas Associates</p>
+      <div class="footer-row">
+        <p>© <span id="year">2026</span> Kylas Associates. All rights reserved.</p>
+        <p class="small">This website is for information only and does not constitute legal advice, advertisement or solicitation.</p>
+      </div>
     </div>
   </footer>
 

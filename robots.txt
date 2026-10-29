@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pauloseraj.github.io/kylas-associates/sitemap.xml
