@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://pauloseraj.github.io/kylas-associates/sitemap.xml
+Sitemap: https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY/sitemap.xml

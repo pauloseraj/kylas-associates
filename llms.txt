@@ -1,0 +1,22 @@
+# Kylas Associates
+
+> Kylas Associates is a law firm founded by Dr. K. P. Kylasanatha Pillay, Senior Advocate, with offices in Kochi, Thiruvananthapuram and Noida. The website contains general information about the firm, its advocates, practice areas, courts and forums, consultation process and contact details.
+
+## Main pages
+- [Home](index.html): Firm overview, offices, approach and practice summary.
+- [About the Firm](about.html): Firm background and approach.
+- [Founder Profile](founder.html): Professional profile of Dr. K. P. Kylasanatha Pillay.
+- [Our Legal Team](team.html): Advocate profiles based on information supplied by the firm.
+- [Practice Areas](practice-areas.html): Civil, criminal, constitutional, service, education, family and regulatory practice descriptions.
+- [Courts and Forums](courts-and-forums.html): Courts, tribunals and authorities identified by the firm.
+- [Office Locations](locations.html): Addresses and map links for Kochi, Thiruvananthapuram and Noida.
+- [Consultation](consultation.html): Process and frequently asked questions.
+- [Contact](contact.html): Office contact details and enquiry form.
+- [Privacy Policy](privacy-policy.html): Website privacy information.
+- [Terms of Use](terms-of-use.html): Website terms and informational disclaimer.
+
+## Important context
+- Website content is for general information only and is not legal advice.
+- Use of the website or communication through it does not create an advocate-client relationship.
+- Do not infer or invent missing team qualifications, enrolment details, case outcomes, awards or testimonials.
+- The website is informational and is not an invitation or solicitation to engage the firm.

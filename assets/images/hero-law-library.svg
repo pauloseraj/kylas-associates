@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172d48"/><stop offset=".58" stop-color="#263d58"/><stop offset="1" stop-color="#07182c"/></linearGradient>
+    <radialGradient id="light" cx=".74" cy=".22" r=".72"><stop stop-color="#d5b578" stop-opacity=".44"/><stop offset="1" stop-color="#d5b578" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#65442d"/><stop offset="1" stop-color="#241b18"/></linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5e3928"/><stop offset=".5" stop-color="#2b201e"/><stop offset="1" stop-color="#0f1725"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff7df"/><stop offset="1" stop-color="#cdbd98"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+    <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M0 17h90M0 53h90" stroke="#fff" stroke-opacity=".025"/><circle cx="16" cy="29" r="1" fill="#fff" fill-opacity=".08"/><circle cx="72" cy="73" r="1" fill="#fff" fill-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/><rect width="1200" height="760" fill="url(#light)"/><rect width="1200" height="760" fill="url(#grain)"/>
+  <g opacity=".18" stroke="#d3b271" stroke-width="5"><path d="M820 70h250M850 70v350M1040 70v350M800 420h290M880 112h130"/><path d="M875 112l-25 34h50zM1015 112l-25 34h50z"/></g>
+  <ellipse cx="770" cy="665" rx="470" ry="72" fill="#000" opacity=".42" filter="url(#shadow)"/>
+  <path d="M0 580c240-40 430-20 610 0s390 12 590-28v208H0z" fill="url(#wood)"/>
+  <path d="M0 604c250-40 500-16 730 3 200 17 330 0 470-30" stroke="#b78c55" stroke-opacity=".35" stroke-width="3"/>
+  <g transform="translate(190 440) rotate(-8)">
+    <path d="M20 115l370-42 38 132-370 48z" fill="#090f19" opacity=".7"/>
+    <path d="M0 66l360-50 42 118L42 188z" fill="url(#cover)" stroke="#a57948" stroke-width="5"/>
+    <path d="M22 83l325-45 30 91-325 45z" stroke="#bc965d" stroke-width="2" opacity=".7"/>
+    <path d="M45 96l278-39 16 66-277 39z" fill="#172940" stroke="#b78f57" stroke-width="2"/>
+    <path d="M54 108l264-37" stroke="#e2c58f" stroke-width="2" opacity=".6"/>
+    <path d="M178 91l8 39" stroke="#e2c58f" stroke-width="2" opacity=".5"/>
+    <text x="190" y="118" text-anchor="middle" font-family="Georgia,serif" font-size="20" letter-spacing="4" fill="#e5ce9e">THE LAW</text>
+  </g>
+  <g transform="translate(540 365) rotate(5)">
+    <path d="M0 135l210-34 205 46-206 54z" fill="#131b24" opacity=".6"/>
+    <path d="M8 80l190-45 8 175L18 161z" fill="url(#paper)" stroke="#bfae8b" stroke-width="3"/>
+    <path d="M198 35l205 44-7 82-190 49z" fill="url(#paper)" stroke="#bfae8b" stroke-width="3"/>
+    <path d="M198 35l8 175" stroke="#9c8c6d" stroke-width="4"/>
+    <g stroke="#8c8068" stroke-width="2" opacity=".55"><path d="M34 100l130-31M36 119l132-31M38 138l132-31M40 157l128-31M232 83l135 29M230 103l135 29M228 123l135 29M226 143l130 28"/></g>
+    <path d="M80 65l80-18" stroke="#b7955a" stroke-width="4"/>
+  </g>
+  <g transform="translate(760 535) rotate(-18)"><path d="M0 0l270-150" stroke="#c49c5c" stroke-width="15" stroke-linecap="round"/><path d="M250-139l31-24-13 37" fill="#e2c386"/><path d="M0 0l-19 30 42-7" fill="#8a6a43"/><circle cx="24" cy="-14" r="8" fill="#e5c98d"/></g>
+  <g transform="translate(520 568)" stroke="#c4a66e" stroke-width="9" opacity=".78"><ellipse cx="0" cy="0" rx="62" ry="37"/><ellipse cx="130" cy="0" rx="62" ry="37"/><path d="M62 0h6"/><path d="M-55 -7l-20-16M185 -7l20-16"/></g>
+  <path d="M0 0h1200v760H0z" stroke="#d7b977" stroke-opacity=".1" stroke-width="3"/>
+</svg>
